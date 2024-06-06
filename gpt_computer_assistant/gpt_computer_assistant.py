@@ -290,6 +290,10 @@ class MainWindow(QMainWindow):
 
         self.small_circle_left_top = QRect(int(small_center_x - small_radius / 2), int(small_center_y - small_radius / 2), int(small_radius), int(small_radius))
 
+
+        print("THE SCREENSHOT ICON PATH")
+        print(screenshot_icon_path)
+
         # Draw the icon inside the circle
         icon_size = small_radius * 2 // 3  # Adjust the icon size relative to the circle
         icon_rect = QRect(small_center_x - icon_size // 2, small_center_y - icon_size // 2, icon_size, icon_size)

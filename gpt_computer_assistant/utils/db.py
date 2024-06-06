@@ -104,8 +104,7 @@ screenshot_icon_path = os.path.join(media_dir, "Screenshot.png")
 audio_icon_path = os.path.join(media_dir, "Audio.png")
 microphone_icon_path = os.path.join(media_dir, "Microphone.png")
 
-print("THE SCREENSHOT ICON PATH")
-print(screenshot_icon_path)
+
 
 
 
