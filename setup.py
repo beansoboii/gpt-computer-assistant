@@ -15,7 +15,8 @@ setup(
     author="Onur Atakan ULUSOY",
     author_email="atadogan06@gmail.com",
     license="MIT",
-    packages=["gpt_computer_assistant", "gpt_computer_assistant.agent", "gpt_computer_assistant.gui", "gpt_computer_assistant.screen", "gpt_computer_assistant.utils", "gpt_computer_assistant.audio"],
+    packages=["gp-t_computer_assistant", "gpt_computer_assistant.agent", "gpt_computer_assistant.gui", "gpt_computer_assistant.screen", "gpt_computer_assistant.utils", "gpt_computer_assistant.audio"],
+    package_data={"gpt_computer_assistant": ["gpt_computer_assistant/utils/media/*"]},
     install_requires=install_requires,
     entry_points={
         "console_scripts": ["computerassistant=gpt_computer_assistant.start:start"],
