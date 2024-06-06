@@ -17,7 +17,6 @@ setup(
     license="MIT",
     packages=["gpt_computer_assistant", "gpt_computer_assistant.agent", "gpt_computer_assistant.gui", "gpt_computer_assistant.screen", "gpt_computer_assistant.utils", "gpt_computer_assistant.audio"],
     include_package_data = True,
-    package_data={"gpt_computer_assistant": ["gpt_computer_assistant/utils/media/*"]},
     install_requires=install_requires,
     entry_points={
         "console_scripts": ["computerassistant=gpt_computer_assistant.start:start"],
