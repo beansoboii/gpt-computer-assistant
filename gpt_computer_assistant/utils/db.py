@@ -105,6 +105,8 @@ audio_icon_path = os.path.join(media_dir, "Audio.png")
 microphone_icon_path = os.path.join(media_dir, "Microphone.png")
 
 
+print(screenshot_icon_path)
+
 
 
 agents = []
