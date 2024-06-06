@@ -1,1 +1,1 @@
-recursive-include . **/*.png
+include gpt_computer_assistant/utils/media/*
